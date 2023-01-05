@@ -12,6 +12,11 @@
   cursor: pointer;
 }
 
+.navBtnInput:focus ~ .navBtn {
+  outline: 1px solid black;
+  outline-offset: 2px;
+}
+
 .navBtn__line {
   position: absolute;
 

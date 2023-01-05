@@ -17,6 +17,7 @@
 
 .apps__link {
   display: block;
+  inline-size: 216px;
   block-size: 65px;
 
   background-position: center;
@@ -25,14 +26,10 @@
 }
 
 .apps__link--googlePlay {
-  inline-size: 216px;
-  
   background-image: url("../../images/google-play.svg");
 }
 
 .apps__link--appStore {
-  inline-size: 201px;
-  
   background-image: url("../../images/app-store.svg");
 }
 
