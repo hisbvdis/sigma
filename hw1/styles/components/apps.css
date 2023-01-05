@@ -5,6 +5,8 @@
 .apps__list {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
   margin: 0;
   margin-block-start: 5px;
@@ -13,6 +15,30 @@
   list-style: none;
 }
 
-.apps__icon {
-  inline-size: 150px;
+.apps__link {
+  display: block;
+  block-size: 65px;
+
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.apps__link--googlePlay {
+  inline-size: 216px;
+  
+  background-image: url("../../images/google-play.svg");
+}
+
+.apps__link--appStore {
+  inline-size: 201px;
+  
+  background-image: url("../../images/app-store.svg");
+}
+
+
+@media (width >= 992px) {
+  .apps__list {
+    flex-direction: row;
+  }
 }
