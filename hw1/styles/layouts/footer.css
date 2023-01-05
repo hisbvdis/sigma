@@ -26,12 +26,16 @@
     padding: 90px 40px;
   }
 
-  .socials {
+  .footer__logo {
+    text-align: start;
+  }
+
+  .footer__socials {
     grid-row: 1/-1;
     grid-column: 2;
   }
 
-  .apps {
+  .footer__apps {
     grid-row: 1/-1;
     grid-column: 3;
   }
