@@ -30,7 +30,7 @@
     margin-block: 10px;
   }
 
-  .header__navBtn:has(:checked) ~ .header__nav {
+  .navBtnInput:checked ~ .header__nav {
     display: block;
   }
   
@@ -38,7 +38,7 @@
     display: none;
   }
   
-  .header__navBtn:has(:checked) ~ .header__actions {
+  .navBtnInput:checked ~ .header__actions {
     display: flex;
   }
 }
