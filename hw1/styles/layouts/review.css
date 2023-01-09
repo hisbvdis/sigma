@@ -33,7 +33,7 @@
 }
 
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .review__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -58,7 +58,7 @@
 }
 
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .review__container {
     padding-block: 230px 175px;
   }

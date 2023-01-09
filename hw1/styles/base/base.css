@@ -8,13 +8,13 @@ body {
   overflow-y: scroll;
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   body {
     font-size: 16px;
   }
 }
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   body {
     font-size: 20px;
   }

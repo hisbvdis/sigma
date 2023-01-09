@@ -34,7 +34,7 @@
 }
 
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .apps__list {
     flex-direction: row;
   }

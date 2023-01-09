@@ -19,7 +19,7 @@
 }
 
 
-@media (width >= 576px) {
+@media (min-width: 576px) {
   .hero__container {
     padding-block: 60px 120px;
   }
@@ -33,7 +33,7 @@
   }
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .hero__container {
     padding-block: 110px 220px;
   }
@@ -43,7 +43,7 @@
   }
 }
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .hero__container {
     padding-block: 175px 335px;
   }

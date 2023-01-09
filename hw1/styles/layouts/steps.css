@@ -51,14 +51,14 @@
 }
 
 
-@media (width >= 576px) {
+@media (min-width: 576px) {
   .steps__container {
     padding-block: 60px 50px;
   }
 }
 
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .steps__container {
     padding-block-start: 90px;
   }
@@ -84,7 +84,7 @@
 }
 
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .steps__container {
     padding-block-start: 170px;
   }

@@ -4,13 +4,13 @@
   font-weight: 700;
 }
 
-@media (width >= 576px) {
+@media (min-width: 576px) {
   .subTitle {
     font-size: 19px;
   }
 }
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .subTitle {
     font-size: 24px;
   }

@@ -44,7 +44,7 @@
 }
 
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .product__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,14 +58,14 @@
 }
 
 
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .product__container {
     padding-block: 120px 240px;
   }
 }
 
 
-@media (width >= 1500px) {
+@media (min-width: 1500px) {
   .product__card {
     translate: -60px 70px;
   }

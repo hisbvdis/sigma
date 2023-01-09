@@ -9,14 +9,14 @@
 }
 
 
-@media (width >= 1410px) {
+@media (min-width: 1410px) {
   .container {
     padding-inline: 0px;
   }
 }
 
 
-@media (width >= 1540px) {
+@media (min-width: 1540px) {
   .container--big {
     padding-inline: 0px;
   }
